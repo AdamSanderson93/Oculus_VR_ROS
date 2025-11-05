@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adam\\VR_ROS_FACE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B35EC10-15D1-B152-9E9C-23F5833428D6}|Assembly-CSharp.csproj|c:\\users\\adam\\vr_ros_face\\assets\\face_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B35EC10-15D1-B152-9E9C-23F5833428D6}|Assembly-CSharp.csproj|solutionrelative:assets\\face_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BF40E3-AEC9-89FA-0D22-0C83278B7463}|Unity.Robotics.ROSTCPConnector.Messages.csproj|c:\\users\\adam\\ros-tcp-connector-main\\com.unity.robotics.ros-tcp-connector\\runtime\\messages\\std\\msg\\float64multiarraymsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Float64MultiArrayMsg.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\ROS-TCP-Connector-main\\com.unity.robotics.ros-tcp-connector\\Runtime\\Messages\\Std\\msg\\Float64MultiArrayMsg.cs",
+              "RelativeDocumentMoniker": "..\\ROS-TCP-Connector-main\\com.unity.robotics.ros-tcp-connector\\Runtime\\Messages\\Std\\msg\\Float64MultiArrayMsg.cs",
+              "ToolTip": "C:\\Users\\Adam\\ROS-TCP-Connector-main\\com.unity.robotics.ros-tcp-connector\\Runtime\\Messages\\Std\\msg\\Float64MultiArrayMsg.cs",
+              "RelativeToolTip": "..\\ROS-TCP-Connector-main\\com.unity.robotics.ros-tcp-connector\\Runtime\\Messages\\Std\\msg\\Float64MultiArrayMsg.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T01:18:04.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "face_script.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\VR_ROS_FACE\\Assets\\face_script.cs",
+              "RelativeDocumentMoniker": "Assets\\face_script.cs",
+              "ToolTip": "C:\\Users\\Adam\\VR_ROS_FACE\\Assets\\face_script.cs",
+              "RelativeToolTip": "Assets\\face_script.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowJEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T20:31:46.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

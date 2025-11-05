@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.UnityTechnologies.com.unity.template.urpblank.launcher-mergeReleaseResources-19:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adam\\.gradle\\caches\\8.11\\transforms\\faa7802200866d1a364691e28336092e\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

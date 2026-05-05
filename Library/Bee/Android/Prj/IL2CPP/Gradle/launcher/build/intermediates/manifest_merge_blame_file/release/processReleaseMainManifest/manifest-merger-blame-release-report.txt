@@ -22,289 +22,284 @@
 17        android:xlargeScreens="true" />
 17-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
 18
-19    <uses-permission android:name="android.permission.INTERNET" />
-19-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-67
-19-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:22-64
-20
-21    <uses-feature android:glEsVersion="0x00030000" />
-21-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:5-54
-21-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:19-51
-22    <uses-feature
-22-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:5-13:36
-23        android:name="android.hardware.vulkan.version"
-23-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:9-55
-24        android:required="false" />
-24-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:9-33
-25    <uses-feature
-25-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:5-16:36
-26        android:name="android.hardware.touchscreen"
-26-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:9-52
-27        android:required="false" />
-27-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:16:9-33
-28    <uses-feature
-28-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:5-19:36
-29        android:name="android.hardware.touchscreen.multitouch"
-29-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:9-63
-30        android:required="false" />
-30-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-33
+19    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+19-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:5-75
+19-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:22-72
+20    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
+20-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:5-75
+20-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:22-72
+21    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
+21-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:5-75
+21-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:22-72
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:5-71
+22-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:22-68
+23    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+23-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:5-74
+23-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:22-71
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:5-67
+24-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:22-64
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:5-80
+25-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:22-77
+26
+27    <uses-feature
+27-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:17:5-20:31
+28        android:name="android.hardware.vr.headtracking"
+28-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:18:9-56
+29        android:required="true"
+29-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:19:9-32
+30        android:version="1" />
+30-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:9-28
 31    <uses-feature
-31-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:20:5-22:36
-32        android:name="android.hardware.touchscreen.multitouch.distinct"
-32-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:9-72
+31-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:21:5-23:36
+32        android:name="oculus.software.handtracking"
+32-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:9-52
 33        android:required="false" />
-33-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:22:9-33
+33-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:9-33
 34    <uses-feature
-34-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:23:5-26:31
-35        android:name="android.hardware.vr.headtracking"
-35-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:9-56
-36        android:required="true"
-36-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:9-32
-37        android:version="1" />
-37-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:9-28
-38    <uses-feature
-38-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:5-29:36
-39        android:name="oculus.software.handtracking"
-39-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:9-52
-40        android:required="false" />
-40-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:9-33
-41
-42    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
-42-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:5-75
-42-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:22-72
-43
+34-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:24:5-26:36
+35        android:name="com.oculus.software.body_tracking"
+35-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:25:9-57
+36        android:required="false" />
+36-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:26:9-33
+37    <uses-feature
+37-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:27:5-29:35
+38        android:name="oculus.software.face_tracking"
+38-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:28:9-53
+39        android:required="true" />
+39-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:29:9-32
+40    <uses-feature
+40-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:30:5-32:35
+41        android:name="oculus.software.eye_tracking"
+41-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:31:9-52
+42        android:required="true" />
+42-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:32:9-32
+43    <uses-feature android:glEsVersion="0x00030000" />
+43-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:33:5-54
+43-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:33:19-51
 44    <uses-feature
-44-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:33:5-35:36
-45        android:name="com.oculus.software.body_tracking"
-45-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:9-57
+44-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:34:5-36:36
+45        android:name="android.hardware.vulkan.version"
+45-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:35:9-55
 46        android:required="false" />
-46-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:35:9-33
-47
-48    <uses-permission android:name="com.oculus.permission.BODY_TRACKING" />
-48-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:5-75
-48-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:22-72
-49
+46-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:36:9-33
+47    <uses-feature
+47-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:37:5-39:36
+48        android:name="android.hardware.microphone"
+48-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:38:9-51
+49        android:required="false" />
+49-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:39:9-33
 50    <uses-feature
-50-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:39:5-41:35
-51        android:name="oculus.software.face_tracking"
-51-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:9-53
-52        android:required="true" />
-52-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:41:9-32
-53
-54    <uses-permission android:name="com.oculus.permission.FACE_TRACKING" />
-54-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:5-75
-54-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:22-72
-55    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-55-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:5-71
-55-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:22-68
-56
-57    <uses-feature
-57-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:46:5-48:35
-58        android:name="oculus.software.eye_tracking"
-58-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:47:9-52
-59        android:required="true" />
-59-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:48:9-32
-60
-61    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
-61-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:50:5-74
-61-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:50:22-71
-62
-63    <application
-63-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
-64        android:allowBackup="false"
-64-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:53:9-36
-65        android:appCategory="game"
-65-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:54:9-35
-66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-66-->[androidx.core:core:1.8.0] C:\Users\Adam\.gradle\caches\8.11\transforms\4aef0f0413728814e159db4e091c933b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-67        android:extractNativeLibs="true"
-68        android:icon="@mipmap/app_icon"
-68-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
-69        android:label="@string/app_name"
-69-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
-70        android:networkSecurityConfig="@xml/network_sec_config" >
-70-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:58:9-64
+50-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:40:5-42:36
+51        android:name="android.hardware.touchscreen"
+51-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:41:9-52
+52        android:required="false" />
+52-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:42:9-33
+53    <uses-feature
+53-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:43:5-45:36
+54        android:name="android.hardware.touchscreen.multitouch"
+54-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:44:9-63
+55        android:required="false" />
+55-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:45:9-33
+56    <uses-feature
+56-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:46:5-48:36
+57        android:name="android.hardware.touchscreen.multitouch.distinct"
+57-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:47:9-72
+58        android:required="false" />
+58-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:48:9-33
+59
+60    <application
+60-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+61        android:allowBackup="false"
+61-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:51:9-36
+62        android:appCategory="game"
+62-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:52:9-35
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.8.0] C:\Users\Adam\.gradle\caches\8.11\transforms\4aef0f0413728814e159db4e091c933b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+64        android:extractNativeLibs="true"
+65        android:icon="@mipmap/app_icon"
+65-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
+66        android:label="@string/app_name"
+66-->C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
+67        android:networkSecurityConfig="@xml/network_sec_config" >
+67-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:56:9-64
+68        <meta-data
+68-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:57:9-59:37
+69            android:name="unityplayer.SkipPermissionsDialog"
+69-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:58:13-61
+70            android:value="false" />
+70-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:59:13-34
 71        <meta-data
-71-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:59:9-61:33
-72            android:name="unity.splash-mode"
-72-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:60:13-45
-73            android:value="0" />
-73-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:61:13-30
+71-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:60:9-62:36
+72            android:name="com.oculus.handtracking.frequency"
+72-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:61:13-61
+73            android:value="HIGH" />
+73-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:62:13-33
 74        <meta-data
-74-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:62:9-64:36
-75            android:name="unity.splash-enable"
-75-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:63:13-47
-76            android:value="True" />
-76-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:64:13-33
+74-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:63:9-65:36
+75            android:name="com.oculus.handtracking.version"
+75-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:64:13-59
+76            android:value="V2.0" />
+76-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:65:13-33
 77        <meta-data
-77-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:65:9-67:36
-78            android:name="unity.launch-fullscreen"
-78-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:66:13-51
-79            android:value="True" />
-79-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:67:13-33
+77-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:66:9-68:37
+78            android:name="com.oculus.ossplash.background"
+78-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:67:13-58
+79            android:value="black" />
+79-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:68:13-34
 80        <meta-data
-80-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:68:9-70:36
-81            android:name="unity.render-outside-safearea"
-81-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:69:13-57
-82            android:value="True" />
-82-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:70:13-33
+80-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:69:9-71:68
+81            android:name="com.oculus.telemetry.project_guid"
+81-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:70:13-61
+82            android:value="0edfa583-132e-46c5-b768-ca027c72526f" />
+82-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:71:13-65
 83        <meta-data
-83-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:71:9-73:50
-84            android:name="notch.config"
-84-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:72:13-40
-85            android:value="portrait|landscape" />
-85-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:73:13-47
+83-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:72:9-75:45
+84            android:name="com.oculus.supportedDevices"
+84-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:73:13-55
+85            android:value="quest2|questpro|quest3|quest3s" />
+85-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:74:13-59
 86        <meta-data
-86-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:74:9-76:36
-87            android:name="unity.auto-report-fully-drawn"
-87-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:75:13-57
-88            android:value="true" />
-88-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:76:13-33
+86-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:76:9-78:33
+87            android:name="unity.splash-mode"
+87-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:77:13-45
+88            android:value="0" />
+88-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:78:13-30
 89        <meta-data
-89-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:77:9-79:36
-90            android:name="unity.strip-engine-code"
-90-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:78:13-51
-91            android:value="true" />
-91-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:79:13-33
+89-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:79:9-81:36
+90            android:name="unity.splash-enable"
+90-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:80:13-47
+91            android:value="True" />
+91-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:81:13-33
 92        <meta-data
-92-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:80:9-82:36
-93            android:name="unity.auto-set-game-state"
-93-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:81:13-53
-94            android:value="true" />
-94-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:82:13-33
-95
-96        <activity
-96-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:84:9-125:20
-97            android:name="com.unity3d.player.UnityPlayerGameActivity"
-97-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:85:13-70
-98            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-98-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:86:13-194
-99            android:enabled="true"
-99-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:87:13-35
-100            android:exported="true"
-100-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:88:13-36
-101            android:hardwareAccelerated="false"
-101-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:89:13-48
-102            android:launchMode="singleTask"
-102-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:90:13-44
-103            android:resizeableActivity="true"
-103-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:91:13-46
-104            android:screenOrientation="landscape"
-104-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:92:13-50
-105            android:theme="@style/BaseUnityGameActivityTheme" >
-105-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:93:13-62
-106            <intent-filter>
-106-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:94:13-100:29
-107                <category android:name="android.intent.category.LAUNCHER" />
-107-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:95:17-77
-107-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:95:27-74
-108
-109                <action android:name="android.intent.action.MAIN" />
-109-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:97:17-69
-109-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:97:25-66
+92-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:82:9-84:36
+93            android:name="unity.launch-fullscreen"
+93-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:83:13-51
+94            android:value="True" />
+94-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:84:13-33
+95        <meta-data
+95-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:85:9-87:36
+96            android:name="unity.render-outside-safearea"
+96-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:86:13-57
+97            android:value="True" />
+97-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:87:13-33
+98        <meta-data
+98-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:88:9-90:50
+99            android:name="notch.config"
+99-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:89:13-40
+100            android:value="portrait|landscape" />
+100-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:90:13-47
+101        <meta-data
+101-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:91:9-93:36
+102            android:name="unity.auto-report-fully-drawn"
+102-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:92:13-57
+103            android:value="true" />
+103-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:93:13-33
+104        <meta-data
+104-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:94:9-96:36
+105            android:name="unity.strip-engine-code"
+105-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:95:13-51
+106            android:value="true" />
+106-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:96:13-33
+107        <meta-data
+107-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:97:9-99:36
+108            android:name="unity.auto-set-game-state"
+108-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:98:13-53
+109            android:value="true" />
+109-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:99:13-33
 110
-111                <category android:name="com.oculus.intent.category.VR" />
-111-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:99:17-74
-111-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:99:27-71
-112            </intent-filter>
-113
-114            <meta-data
-114-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:102:13-104:40
-115                android:name="unityplayer.UnityActivity"
-115-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:103:17-57
-116                android:value="true" />
-116-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:104:17-37
-117            <meta-data
-117-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:105:13-107:40
-118                android:name="android.app.lib_name"
-118-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:106:17-52
-119                android:value="game" />
-119-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:107:17-37
-120            <meta-data
-120-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:108:13-110:71
-121                android:name="WindowManagerPreference:FreeformWindowSize"
-121-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:109:17-74
-122                android:value="@string/FreeformWindowSize_maximize" />
-122-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:110:17-68
-123            <meta-data
-123-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:111:13-113:79
-124                android:name="WindowManagerPreference:FreeformWindowOrientation"
-124-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:112:17-81
-125                android:value="@string/FreeformWindowOrientation_landscape" />
-125-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:113:17-76
-126            <meta-data
-126-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:114:13-116:40
-127                android:name="notch_support"
-127-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:115:17-45
-128                android:value="true" />
-128-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:116:17-37
-129
-130            <layout
-130-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:118:13-120:44
-131                android:minHeight="300px"
-131-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:119:17-42
-132                android:minWidth="400px" />
-132-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:120:17-41
-133
-134            <meta-data
-134-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:122:13-124:40
-135                android:name="com.oculus.vr.focusaware"
-135-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:123:17-56
-136                android:value="true" />
-136-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:124:17-37
-137        </activity>
-138
-139        <meta-data
-139-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:127:9-129:36
-140            android:name="com.oculus.handtracking.frequency"
-140-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:128:13-61
-141            android:value="HIGH" />
-141-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:129:13-33
-142        <meta-data
-142-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:130:9-132:36
-143            android:name="com.oculus.handtracking.version"
-143-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:131:13-59
-144            android:value="V2.0" />
-144-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:132:13-33
-145        <meta-data
-145-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:133:9-135:37
-146            android:name="com.oculus.ossplash.background"
-146-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:134:13-58
-147            android:value="black" />
-147-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:135:13-34
-148        <meta-data
-148-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:136:9-138:68
-149            android:name="com.oculus.telemetry.project_guid"
-149-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:137:13-61
-150            android:value="0edfa583-132e-46c5-b768-ca027c72526f" />
-150-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:138:13-65
-151        <meta-data
-151-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:139:9-142:45
-152            android:name="com.oculus.supportedDevices"
-152-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:140:13-55
-153            android:value="quest2|questpro|quest3|quest3s" />
-153-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:141:13-59
-154
-155        <provider
-155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-156            android:name="androidx.startup.InitializationProvider"
-156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-157            android:authorities="com.UnityTechnologies.com.unity.template.urpblank.androidx-startup"
-157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-158            android:exported="false" >
-158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-159            <meta-data
-159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-160                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-161                android:value="androidx.startup" />
-161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-162            <meta-data
-162-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-163                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-163-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-164                android:value="androidx.startup" />
-164-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-165        </provider>
-166    </application>
-167
-168</manifest>
+111        <activity
+111-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:101:9-135:20
+112            android:name="com.unity3d.player.UnityPlayerGameActivity"
+112-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:102:13-70
+113            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+113-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:103:13-194
+114            android:enabled="true"
+114-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:104:13-35
+115            android:excludeFromRecents="true"
+115-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:105:13-46
+116            android:exported="true"
+116-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:106:13-36
+117            android:hardwareAccelerated="false"
+117-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:107:13-48
+118            android:launchMode="singleTask"
+118-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:108:13-44
+119            android:resizeableActivity="true"
+119-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:109:13-46
+120            android:screenOrientation="landscape"
+120-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:110:13-50
+121            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+121-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:111:13-72
+122            <intent-filter>
+122-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:112:13-117:29
+123                <category android:name="android.intent.category.LAUNCHER" />
+123-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:113:17-77
+123-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:113:27-74
+124                <category android:name="com.oculus.intent.category.VR" />
+124-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:114:17-74
+124-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:114:27-71
+125
+126                <action android:name="android.intent.action.MAIN" />
+126-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:116:17-69
+126-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:116:25-66
+127            </intent-filter>
+128
+129            <meta-data
+129-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:119:13-121:40
+130                android:name="com.oculus.vr.focusaware"
+130-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:120:17-56
+131                android:value="true" />
+131-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:121:17-37
+132            <meta-data
+132-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:122:13-124:71
+133                android:name="WindowManagerPreference:FreeformWindowSize"
+133-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:123:17-74
+134                android:value="@string/FreeformWindowSize_maximize" />
+134-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:124:17-68
+135            <meta-data
+135-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:125:13-127:79
+136                android:name="WindowManagerPreference:FreeformWindowOrientation"
+136-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:126:17-81
+137                android:value="@string/FreeformWindowOrientation_landscape" />
+137-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:127:17-76
+138            <meta-data
+138-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:128:13-130:40
+139                android:name="notch_support"
+139-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:129:17-45
+140                android:value="true" />
+140-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:130:17-37
+141
+142            <layout
+142-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:132:13-134:44
+143                android:minHeight="300px"
+143-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:133:17-42
+144                android:minWidth="400px" />
+144-->[:unityLibrary] C:\Users\Adam\VR_ROS_FACE\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:134:17-41
+145        </activity>
+146
+147        <provider
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+148            android:name="androidx.startup.InitializationProvider"
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+149            android:authorities="com.UnityTechnologies.com.unity.template.urpblank.androidx-startup"
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+150            android:exported="false" >
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+151            <meta-data
+151-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+153                android:value="androidx.startup" />
+153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Adam\.gradle\caches\8.11\transforms\506e0923b2edf699a568247bbabd40eb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+154            <meta-data
+154-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+155                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+155-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+156                android:value="androidx.startup" />
+156-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Adam\.gradle\caches\8.11\transforms\2be88b33c7c135c3fb5a1d54448b4c97\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+157        </provider>
+158    </application>
+159
+160</manifest>

@@ -1,6 +1,8 @@
 using RosMessageTypes.Geometry;
 using RosMessageTypes.Std;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using Unity.Robotics.ROSTCPConnector;
 using Unity.VisualScripting;
@@ -49,7 +51,6 @@ public class face_script : MonoBehaviour
     // In Awake or Start, get the component reference
     void Start()
     {
-
         pub_period = 1.0 / frequency;
         OVRCameraRig cameraRig = FindFirstObjectByType<OVRCameraRig>();
         if (cameraRig != null)
@@ -72,6 +73,7 @@ public class face_script : MonoBehaviour
                 }
                 ros = ROSConnection.GetOrCreateInstance();
                 ros.RegisterPublisher<Float64MultiArrayMsg>("/facial_input");
+                ros.RegisterPublisher<Float64MultiArrayMsg>("/full_facial_input");
                 ros.RegisterPublisher<TransformMsg>("/left_eye_transform");
                 ros.RegisterPublisher<TransformMsg>("/right_eye_transform");
                 ros.RegisterPublisher<BoolMsg>("/left_eye_open");
@@ -149,7 +151,8 @@ public class face_script : MonoBehaviour
                         Blink
                     }
                 };
-                // Option 1: Using string.Format
+                
+
                 string formattedString = "[";
                 for (int i = 0; i < array.data.Length; i++)
                 {
@@ -163,7 +166,24 @@ public class face_script : MonoBehaviour
 
                 FAU_Text.text = "FAUs: " + formattedString;
 
+                //double[] weightsBuffer = new double[faceExpressions.Count];
+                //float[] copyBuffer = new float[faceExpressions.Count];
+
+                //faceExpressions.CopyTo(copyBuffer);
+
+                //for (int i = 0; i < faceExpressions.Count; i++)
+                //{
+                //    weightsBuffer[i] = copyBuffer[i];
+                //}
+
+                Float64MultiArrayMsg new_array = new()
+                {
+                    layout = new MultiArrayLayoutMsg(),
+                    data = faceExpressions.Select(x => (double)x).ToArray()
+                };
+
                 ros.Publish("/facial_input", array);
+                ros.Publish("/full_facial_input", new_array);
                 ros.Publish("/left_eye_open", new BoolMsg(faceExpressions[OVRFaceExpressions.FaceExpression.EyesClosedL] < 0.8));
                 ros.Publish("/right_eye_open", new BoolMsg(faceExpressions[OVRFaceExpressions.FaceExpression.EyesClosedR] < 0.8));
                 time_elapsed = 0f;

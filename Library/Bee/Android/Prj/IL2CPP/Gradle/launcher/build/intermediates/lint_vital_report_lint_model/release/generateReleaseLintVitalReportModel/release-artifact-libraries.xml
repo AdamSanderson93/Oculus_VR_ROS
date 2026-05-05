@@ -20,6 +20,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name=":libwebrtc:@aar"
+      jars="C:\Users\Adam\.gradle\caches\8.11\transforms\d11edd5270901621c4233329996856aa\transformed\jetified-libwebrtc\jars\classes.jar"
+      resolved=":libwebrtc:"
+      folder="C:\Users\Adam\.gradle\caches\8.11\transforms\d11edd5270901621c4233329996856aa\transformed\jetified-libwebrtc"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name=":MetaMovementSDK_Utility:@aar"
       jars="C:\Users\Adam\.gradle\caches\8.11\transforms\eabd94031c086a2064bf44409e4992b2\transformed\jetified-MetaMovementSDK_Utility\jars\classes.jar"
       resolved=":MetaMovementSDK_Utility:"

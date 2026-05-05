@@ -1,10 +1,19 @@
 # ninja log v5
 46	7160	7839868861199453	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	15b5fa8511939311
+24	7874	7839868868274785	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3daf2a8e2bb315bc
 76	7393	7839868862738096	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aee33881a05fb38d
 35	7591	7839868865095750	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c61ddd66f6e4b678
-0	7798	7839868867547997	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	df2362c73fe3c2a4
-24	7874	7839868868274785	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3daf2a8e2bb315bc
-59	8447	7839868873800256	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5d60a8eb491ddbc4
 92	8910	7839868878804477	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	665a4b77743bcc64
+0	7798	7839868867547997	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	df2362c73fe3c2a4
+59	8447	7839868873800256	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5d60a8eb491ddbc4
 13	9055	7839868880197632	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b5338fc5b61609eb
 9056	9592	7839868885142866	C:/Users/Adam/VR_ROS_FACE/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2z3i3d3w/obj/arm64-v8a/libgame.so	fa4b68d680a68f59
+55	3923	7984340073968973	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c61ddd66f6e4b678
+36	3947	7984340074118846	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	15b5fa8511939311
+16	3953	7984340074248767	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	df2362c73fe3c2a4
+79	3982	7984340074678861	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	aee33881a05fb38d
+26	4086	7984340075871440	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3daf2a8e2bb315bc
+93	4429	7984340079319744	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	665a4b77743bcc64
+66	4532	7984340080329135	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5d60a8eb491ddbc4
+45	4732	7984340082286060	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b5338fc5b61609eb
+4732	5114	7984340086165921	C:/Users/Adam/VR_ROS_FACE/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2z3i3d3w/obj/arm64-v8a/libgame.so	fa4b68d680a68f59

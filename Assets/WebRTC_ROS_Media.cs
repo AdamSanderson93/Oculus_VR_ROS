@@ -175,8 +175,6 @@ public class WebRTC_ROS_Media : MonoBehaviour {
         ws.SendText(JsonConvert.SerializeObject(join_room));
     }
 
-
-
     private void Start() {
         Debug.Log("Start Media!");
         StartCoroutine(WebRTC.Update());

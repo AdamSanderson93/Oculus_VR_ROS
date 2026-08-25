@@ -376,11 +376,13 @@ public class WebRTC_ROS_Data : MonoBehaviour {
                         header = new std_msgs_header(),
                         gp_cmd = "GENERAL_PURPOSE_CMD_SET_OPERATIONAL_MODE",
                         gp_param = 5};
-                    receiverDataChannel.Send("/movo/gp_command!movo_msgs/ConfigCmd!"+JsonConvert.SerializeObject(mode_msg));
+                    send_message("/movo/gp_command","movo_msgs/ConfigCmd",JsonConvert.SerializeObject(mode_msg));
+                    //receiverDataChannel.Send("/movo/gp_command!movo_msgs/ConfigCmd!"+JsonConvert.SerializeObject(mode_msg));
                 }
-
-                receiverDataChannel.Send("/xr_input!custom_teleop_messages/XRMod!"+JsonConvert.SerializeObject(message));
-                receiverDataChannel.Send("/cmd_vel!geometry_msgs/Twist!"+JsonConvert.SerializeObject(base_message));
+                send_message("/xr_input","custom_teleop_messages/XRMod",JsonConvert.SerializeObject(message));
+                send_message("/cmd_vel","geometry_msgs/Twist",JsonConvert.SerializeObject(base_message));
+                //receiverDataChannel.Send("/xr_input!custom_teleop_messages/XRMod!"+JsonConvert.SerializeObject(message));
+                //receiverDataChannel.Send("/cmd_vel!geometry_msgs/Twist!"+JsonConvert.SerializeObject(base_message));
                 
                 last_button_state = leftX;
                 ros_time_rate = 0;
@@ -393,6 +395,13 @@ public class WebRTC_ROS_Data : MonoBehaviour {
         }
     }
 
+    public void send_message(string topic, string msg_type, string json_data)
+    {
+        if (receiverDataChannel != null)
+        {
+            receiverDataChannel.Send($"{topic}!{msg_type}!{json_data}");
+        }
+    }
 
     private void close_webrtc()
     {

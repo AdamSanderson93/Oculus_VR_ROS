@@ -6,7 +6,7 @@ using RosMessageTypes.Geometry;
 using Unity.Robotics.ROSTCPConnector;
 using Unity.Robotics.ROSTCPConnector.ROSGeometry;
 
-public class SendControllerData : MonoBehaviour
+public class RosControllerPublisher : MonoBehaviour
 {
     //Getting action references from scene
     [Header("ROS_INPUTS")]
@@ -18,7 +18,6 @@ public class SendControllerData : MonoBehaviour
     readonly string topicName = "/xr_input";
 
     readonly string baseTopicName = "/cmd_vel";
-
 
     ROSConnection ros;
     //Tracking elapsed time
